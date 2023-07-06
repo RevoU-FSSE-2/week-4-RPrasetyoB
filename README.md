@@ -3,16 +3,16 @@
 
 # Hello there!
 Welcome to my github.
-This repo contain my website portfolio and as introduction of me.
-I Built this website to highligh my work, hope you like it.
+This repo contain my website portfolio and as introduction of me.<br>
+I Built this website to highligh my work, hope you like it.<br>
 Website deployment: <a href="https://week3-renaldipb.netlify.app" target="_blank">Click here</a>
 
 ## Website Structure
-> Header : Hamburger navigation button
+>> Header : Hamburger navigation button
 
-> Main : left-section, right-section, about-me section, contact section
+>> Main : left-section, right-section, about-me section, contact section
 
-> Footer
+>> Footer
 
 ## Dev tools
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
