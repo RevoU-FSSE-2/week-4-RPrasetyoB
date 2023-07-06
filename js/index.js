@@ -1,4 +1,3 @@
-function scroll(){
-    var element = document.getElementById("contact");
-    element.scrollIntoView();
-   }
+document.getElementById('toggle').addEventListener('click', function(){
+    document.getElementById('nav-mobile').classList.toggle('active');
+})

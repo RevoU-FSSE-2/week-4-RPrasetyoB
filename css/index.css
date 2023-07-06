@@ -20,13 +20,13 @@ Body{
     display: none;
 }
 
-.toggle {
+#toggle {
     display: block;
     position: fixed;
     height: 50px;
     width: 60px;
     top: 10vh;
-    left: 5vw;
+    left: 2vw;
     z-index: 21;
     cursor: pointer;
     border-radius: 2px;
@@ -34,7 +34,7 @@ Body{
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-.toggle .common {
+#toggle .common {
     position: absolute;
     height: 4px;
     width: 40px;
@@ -43,41 +43,83 @@ Body{
     transition: 0.3s ease;
 }
 
-.toggle .top-line {
+#toggle .top-line {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.toggle .mid-line {
+#toggle .mid-line {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.toggle .bot-line {
+#toggle .bot-line {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#burger:checked ~ .toggle .top-line {
+#burger:checked ~ #toggle .top-line {
     left: 7px;
     top: 23px;
     width: 45px;
     transform: rotate(-45deg);
 }
 
-#burger:checked ~ .toggle .bot-line {
+#burger:checked ~ #toggle .bot-line {
     left: 7px;
     top: 23px;
     width: 45px;
     transform: rotate(45deg);
 }
 
-#burger:checked ~ .toggle .mid-line {
+#burger:checked ~ #toggle .mid-line {
     opacity: 0;
     transform: translateX(-40px);
+}
+
+#nav-mobile {
+    position: fixed;
+    top: 6vh;
+    left: -400px;
+    height: 70vh;
+    width: 300px;
+    background-color: rgba(235, 228, 220, 0.973);
+    justify-content:first baseline;
+    padding: 0 10px;
+    border-radius: 5px;
+    transition: left 500ms linear;
+    list-style: none;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nav-mobile.active {
+    left: 0px;
+}
+
+#nav-mobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+
+#nav-mobile a {
+    text-decoration: none;
+    top: 20vh;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#nav-mobile a:hover {
+    color: rgb(245, 128, 147);
 }
 
 
@@ -144,7 +186,7 @@ Body{
     text-decoration: none;
 }
 
-.left-side .scroll:hover a {
+.left-side .scroll a:hover {
     background-color: rgb(255, 126, 152);
     color:azure;
 }
@@ -155,4 +197,261 @@ Body{
 
 /* left section end */
 
+/* right section start */
 
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50vw;
+    line-height: 15px;
+    width: 50vw;
+}
+
+.right-side h2, h3 {
+    font-size: 35px;
+    background: transparent;
+    padding: 0 4vw;
+}
+
+.right-side h3 {
+    font-size: 25px;
+    background: transparent;
+    padding: 0 4vw;
+    
+}
+
+.right-side p{
+    font-size: 20px;
+    background: transparent;
+    padding: 0 4vw;
+}
+
+.right-side #photo {
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(49, 65, 65, 0.247);
+    width: 50vw;
+}
+
+.right-side #photo img {
+    width: 20vw;
+    border-radius: 5px;
+    right: 0;
+    top: 24%;
+    position: relative;
+}
+
+.right-side #about-me {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(80, 49, 49, 0.082);
+    justify-content: center;
+    gap: 15px;
+    width: 50vw;
+}
+
+.right-side #about-me h2{
+    padding-bottom: 60px;
+}
+
+.right-side #about-me h3 {
+    padding-top: 20px;
+}
+
+.right-side #contact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(74, 75, 119, 0.123);
+    justify-content: center;
+    width: 50vw;
+    gap: 15px;
+}
+
+.right-side #contact h2 {
+    padding-bottom: 50px;
+}
+
+.right-side #contact p, li {
+    font-size: 25px;
+    line-height: 40px;
+    padding: 0 4vw;
+}
+
+.right-side #contact ul li {
+    list-style-position: inside;
+}
+
+/* right section end */
+
+/* footer */
+
+footer {
+    left: 5vw;
+    bottom: 10vh;
+    position: fixed;
+    margin-bottom: 40px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 20px;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+     .container {
+        display: block;
+        position: none;
+    }
+
+    .left-side {
+        position : relative;
+        width: 100%;
+        margin: 0;
+        padding: 0 3vw;  
+    }
+
+    .right-side {
+        position: none;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .right-side #photo {
+        position: none;
+        width: 100%;
+    }
+
+    .right-side #photo img {
+        width: 50vw;
+        top: 15vh;
+    }
+
+    .right-side #about-me {
+        width: 100%;
+    }
+
+    .right-side #about-me h2 {
+        padding: 5vh 6vw;
+    }
+
+    .right-side #about-me h3 {
+        padding: 0 6vw;
+    }
+
+    .right-side #about-me p {
+        padding: 0 6vw;
+    }
+
+    .right-side #contact {
+        width: 100%;
+    }
+
+    .right-side #contact h2 {
+        padding: 0 6vw;
+        padding-bottom: 5vw;
+    }
+
+    .right-side #contact p {
+        font-size: large;
+        padding: 0 6vw;
+    }
+
+    .right-side #contact li {
+        font-size: large;
+        padding: 0 6vw;
+    }
+
+    footer {
+        position: relative
+        
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+       display: block;
+       position: none;
+   }
+
+   .left-side {
+       position : relative;
+       width: 100%;
+       margin: 0;
+       padding: 0 3vw;  
+   }
+
+   .left-side h1{
+       font-size: xx-large;
+   }
+
+   .left-side p {
+    font-size: large;
+    }
+
+    .left-side .tool {
+        font-size: medium;
+    }
+
+    .left-side .scroll a {
+        font-size: large;
+    }
+
+   .right-side #photo {
+       height: 60vh;
+   }
+
+   .right-side #photo img {
+       top: 10vh;
+   }
+
+   .right-side #about-me {
+       height: 80vh;
+   }
+
+   .right-side #about-me h2 {
+       font-size: xx-large
+   }
+
+   .right-side #about-me h3 {
+       font-size: larger;
+   }
+
+   .right-side #about-me p {
+       font-size: medium;
+   }
+
+   .right-side #contact {
+       height: 60vh;
+   }
+
+   .right-side #contact h2 {
+       font-size: xx-large;
+   }
+
+   .right-side #contact p {
+       font-size: medium;
+   }
+
+   .right-side #contact li {
+       font-size: medium;
+   }
+
+   footer {
+       font-size: medium;
+       
+   }
+}
+
+@media only screen and (max-width: 320px) {
+    .right-side #photo img {
+        top: 15vh;
+    }
+}
