@@ -6,10 +6,12 @@
     box-sizing: 0;
     line-height: 30px;
     color: rgb(255, 126, 152);
+    scroll-behavior: smooth;
 }
 
 Body{
     background-color: rgb(17, 17, 32);
+    width: 100vw;
 }
 
 /* header start */
@@ -80,4 +82,77 @@ Body{
 
 
 /* header end */
+
+/* main section start */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 90vw;
+}
+
+/* left section start */
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    z-index: 1;
+    text-align: left;
+}
+
+.left-side .greeting {
+    position: relative;
+    top: -10vh;
+}
+
+.left-side h1 {
+    font-size: 35px;
+    padding: 40px 5vw;
+    line-height: 40px;
+    top: 20vh;
+}
+
+.left-side p {
+    font-size: 25px;
+    line-height: 40px;
+    padding: 0 5vw;
+}
+
+.left-side .tool {
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.left-side .scroll a {
+    position: relative;
+    width: 250px;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: solid 2px rgb(255, 126, 152);
+    left: 5vw;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.left-side .scroll:hover a {
+    background-color: rgb(255, 126, 152);
+    color:azure;
+}
+
+.left-side .scroll a:active {
+    background-color: aqua;
+}
+
+/* left section end */
+
 
