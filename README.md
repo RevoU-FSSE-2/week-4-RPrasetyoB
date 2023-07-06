@@ -8,10 +8,8 @@ I Built this website to highligh my work, hope you like it.<br>
 Website deployment: <a href="https://week3-renaldipb.netlify.app" target="_blank">Click here</a>
 
 ## Website Structure
->> Header : Hamburger navigation button
-
->> Main : left-section, right-section, about-me section, contact section
-
+>> Header : Hamburger navigation button<br>
+>> Main : left-section, right-section, about-me section, contact section<br>
 >> Footer
 
 ## Dev tools
