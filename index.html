@@ -13,11 +13,24 @@
     <header>
         <div class="navigation">
             <input type="checkbox" id="burger">
-            <label for="burger" class="toggle">
+            <label for="burger" id="toggle">
                 <span class="top-line common"></span>
                 <span class="mid-line common"></span>
                 <span class="bot-line common"></span>
             </label>
+        </div>
+        <div id="nav-mobile">
+            <ul class="sideBar">                
+                <li class="sideItem">
+                    <a href="#photo">Photo</a>
+                </li>
+                <li class="sideItem">
+                    <a href="#about-me">About</a>
+                </li>
+                <li class="sideItem">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
     </header>
     <main class="container">
@@ -31,15 +44,15 @@
                     <span class="tool">I Develop Website using HTML, CSS, and JavaScript</span>
                 </p>
             </div>
-            <div class="scroll" href="#contact">
+            <div class="scroll">
                 <a href="#contact">Lets work together!</a>
             </div>
         </section>
         <section class="right-side">
-            <div class="photo">
+            <div id="photo">
                 <img src="./image/photo.png">
             </div>
-            <div class="about-me">
+            <div id="about-me">
                 <h2>
                     About Me
                 </h2>
