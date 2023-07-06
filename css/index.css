@@ -405,15 +405,11 @@ footer {
     }
 
    .right-side #photo {
-       height: 60vh;
+       height: 100vh;
    }
 
    .right-side #photo img {
-       top: 10vh;
-   }
-
-   .right-side #about-me {
-       height: 80vh;
+       top: 30vh;
    }
 
    .right-side #about-me h2 {
@@ -426,10 +422,6 @@ footer {
 
    .right-side #about-me p {
        font-size: medium;
-   }
-
-   .right-side #contact {
-       height: 60vh;
    }
 
    .right-side #contact h2 {
@@ -452,6 +444,5 @@ footer {
 
 @media only screen and (max-width: 320px) {
     .right-side #photo img {
-        top: 15vh;
     }
 }
