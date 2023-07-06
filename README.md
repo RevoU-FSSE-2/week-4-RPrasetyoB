@@ -1,1 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/isPhTOcA)
+
+![Screenshot_2](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/486588f8-f0fb-486a-8788-85079f5c3334)
+
+# Hello there!
+Welcome to my github.
+This repo contain my website portfolio and as introduction of me.
+I Built this website to highligh my work, hope you like it.
+Website deployment: <a href="https://week3-renaldipb.netlify.app" target="_blank">Click here</a>
+
+## Website Structure
+> Header : Hamburger navigation button
+> Main : left-section, right-section, about-me section, contact section
+> Footer
+
+## Dev tools
+[![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
+
+## Deployment Documentation
+
+"Coming soon"
+
