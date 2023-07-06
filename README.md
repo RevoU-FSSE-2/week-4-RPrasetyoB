@@ -9,7 +9,9 @@ Website deployment: <a href="https://week3-renaldipb.netlify.app" target="_blank
 
 ## Website Structure
 > Header : Hamburger navigation button
+
 > Main : left-section, right-section, about-me section, contact section
+
 > Footer
 
 ## Dev tools
