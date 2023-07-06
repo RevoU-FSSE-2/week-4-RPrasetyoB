@@ -6,7 +6,7 @@ Welcome to my github.
 This repo contain my website portfolio and as introduction of me.<br>
 I Built this website to highligh my work, hope you like it.<br>
 <br>
-Website deployment: <a href="https://week4-renaldipb.netlify.app/" target="_blank">Click here</a>
+Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here</a>
 
 ## Website Structure
 - Header : Hamburger navigation button<br>
