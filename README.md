@@ -18,7 +18,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 - Website responsive for all devices width between 1440px to 320px
 - I use smooth scroll page when button navigation clicked
 ### Google light house score's
-- Desktop :
+- Desktop : <br>
 ![dekstop](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/14197ddb-e366-48bd-8850-679a7a4525c6)
 <br>
 - Mobile :
