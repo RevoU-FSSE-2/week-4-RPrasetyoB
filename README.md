@@ -72,8 +72,24 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
       ![deploy-repo](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/3a3e89a8-fef1-4841-b9a9-ac5c0c76f7d7)
 
 13. Buy domain at domain hoster (i use niagahoster.co.id)
-19. Add domain to DNS / CDN server (i use cloudflare/com)
-20. Change name server at niagahoster with name server that we got from cloudflare
+    - Check domain name availability <br>
+    ![check-domain](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0a27898c-95d6-4051-9a8e-22543bc5e1c5)
+
+    - Choose duration and price then confirm <br>
+    ![pilih](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/33b7daf0-6cbb-4b2c-8875-e8eded4325d2)
+
+    - Checkout purschase, done
+14. Add domain to DNS / CDN server (i use cloudflare/com)
+    - Go to cloudflare.com and click "add a website or application" <br>
+    ![add app](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/52206faa-5884-495e-b469-c728a35b1e6b)
+
+    - Input domain name and click "add site" <br>
+    ![add site](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/cb774c12-28bf-4321-b483-822d9128631e)
+
+    - Choose feature that we need <br>
+    ![feature](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/6518f4bf-b0bb-4650-b1fd-4e5215b2363f)
+
+15. Change name server at niagahoster with name server that we got from cloudflare
 21. Setting DNS and add record rule at cloudflare
 22. Add domain name to netlify
 23. Wait Until domain and DNS status active
