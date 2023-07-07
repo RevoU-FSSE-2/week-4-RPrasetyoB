@@ -28,7 +28,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
 ## Work FLow
-1. Make Website's Design<b>
+1. Make Website's Design
 2. Make Repository at GitHub
 3. Clone Repository from GitHub to Local Vesion control system
       - code: git clone link_repository_at_GitHub <br>
@@ -88,7 +88,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     - Choose feature that we need <br>
     ![feature](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/6518f4bf-b0bb-4650-b1fd-4e5215b2363f)
    
-### 15. Change name server at niagahoster with name server that we got from cloudflare
+15. Change name server at niagahoster with name server that we got from cloudflare
     - Change name server at niagahoster.co.id <br>
     ![niagans](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/bffce7b1-6f30-4df5-888a-6d3468299b57)
 
@@ -97,11 +97,11 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 
     - Wait name server replacement progress until finished, this progress max duration 1 x 24hours but usually take within a hour
 
-### 16. Setting DNS record at cloudflare
+16. Setting DNS record at cloudflare
     - Input domain name from netlify.com to target and input "@" to name if want use root after that click "Save" <br>
       ![record](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0aa69dc5-9fad-4808-b9a7-e44f1e23636b)
 
-### 17. Add domain name to netlify
+17. Add domain name to netlify
     - Go to site configuration and add domain <br>
     ![add domain](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/7b3a2ba3-29b3-4d6e-942d-d35fd05567d5)
 
@@ -111,9 +111,9 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     - Wait progess until finish <br>
       ![finish](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/2be7dff1-139b-4586-ab03-5e45f70c09c9)
 
-### 18. Go to Cloudflare home and Wait Until web status active <br>
+18. Go to Cloudflare home and Wait Until web status active <br>
     ![active](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d0f6d31-0c7b-4fb1-8ce5-45b22f361364)
 
-### 19. Website is ready to be used
+19. Website is ready to be used
 
 
