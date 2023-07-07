@@ -35,7 +35,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
      ![clone](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/298f8be0-8ab2-4dc8-9c1f-7b2b97816239)
 
 4. Build website structure and website assets
-5. Add your file to local git
+5. Add your file to git then push to GitHub repository
    - code: git add . ; git commit -m "update_description" ; git push <br>
      ![push](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/79b37d17-448b-4819-8437-d0fddadb7538)
 
