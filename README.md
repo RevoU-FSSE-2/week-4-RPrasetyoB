@@ -40,22 +40,21 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
      ![push](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/79b37d17-448b-4819-8437-d0fddadb7538)
 
 8. Build website styling (with CSS) and logic program (with JavaScript)
-9. Make new branch to store new changes 
+9. Make new branch to store new changes  and Change branch to new branch
    - code: git branch new_branch ; git checkout new_branch <br>
      ![branch](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/012f880d-1197-47f8-b54d-7d60e7d89ff9)
 
-11. Change branch to new branch (code: git checkout new_branch
-11. Store changes to new branch (code: git add . ; git commit ; git push origin new_branch)
-12. Go to GitHub website and do pull request
-13. Check items was changed if all ok merge new_branch with main branch
-14. Repeat step no. 7 - 11 if theres update in any section in your website, this for keep your main branch safe from error
-15. Deploy repository to hosting website (i use netlify.com)
-16. Buy domain at domain hoster (i use niagahoster.co.id)
-17. Add domain to DNS / CDN server (i use cloudflare/com)
-18. Change name server at niagahoster with name server that we got from cloudflare
-19. Setting DNS and add record rule at cloudflare
-20. Add domain name to netlify
-21. Wait Until domain and DNS status active
-22. Website ready to be used
+10. Store changes to new branch (code: git add . ; git commit ; git push origin new_branch)
+11. Go to GitHub website and do pull request
+12. Check items was changed if all ok merge new_branch with main branch
+13. Repeat step no. 7 - 11 if theres update in any section in your website, this for keep your main branch safe from error
+14. Deploy repository to hosting website (i use netlify.com)
+15. Buy domain at domain hoster (i use niagahoster.co.id)
+16. Add domain to DNS / CDN server (i use cloudflare/com)
+17. Change name server at niagahoster with name server that we got from cloudflare
+18. Setting DNS and add record rule at cloudflare
+19. Add domain name to netlify
+20. Wait Until domain and DNS status active
+21. Website ready to be used
 
 
