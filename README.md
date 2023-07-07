@@ -28,8 +28,8 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
 ## Work FLow
-1. Make Website's Design
-   -
+1. Make Website's Design<b>
+   
 2. Make Repository at GitHub
    -
 3. Clone Repository from GitHub to Local Vesion control system
