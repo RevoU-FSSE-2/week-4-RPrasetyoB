@@ -303,7 +303,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 915px) {
     #toggle{
         top: 6vh;
     }
@@ -422,6 +422,7 @@ footer {
 
    .right-side #photo img {
        top: 30vh;
+       top: 120px;
    }
 
    .right-side #about-me {
