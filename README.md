@@ -27,7 +27,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ## Dev tools
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
-## Work FLow <b>
+## Work FLow Documentation <b>
 
 1. Make Website's Design
 2. Make Repository at GitHub
