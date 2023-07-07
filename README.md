@@ -116,6 +116,5 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     ![active](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d0f6d31-0c7b-4fb1-8ce5-45b22f361364)
 
 19. Website is ready to be used
-</b>
 
 
