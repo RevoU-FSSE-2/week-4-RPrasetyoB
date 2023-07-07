@@ -20,7 +20,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ### Google light house score's
 - Desktop :
 ![dekstop](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/14197ddb-e366-48bd-8850-679a7a4525c6)
-
+<br>
 - Mobile :
 ![mobile](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/59c7fd10-ba1c-47a1-8685-d1adf44a7c5f)
 
