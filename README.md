@@ -41,7 +41,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 
 8. Build website styling (with CSS) and logic program (with JavaScript)
 9. Make new branch to store new changes 
-   - code: git branch new_branch ; git checkout new_branch
+   - code: git branch new_branch ; git checkout new_branch <br>
      ![branch](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/012f880d-1197-47f8-b54d-7d60e7d89ff9)
 
 11. Change branch to new branch (code: git checkout new_branch
