@@ -88,7 +88,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 
     - Choose feature that we need <br>
     ![feature](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/6518f4bf-b0bb-4650-b1fd-4e5215b2363f)
-
+   
 15. Change name server at niagahoster with name server that we got from cloudflare
     - Change name server at niagahoster.co.id <br>
     ![niagans](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/bffce7b1-6f30-4df5-888a-6d3468299b57)
@@ -96,10 +96,21 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     - With name server from cloudflare.com <br>
       ![cluoudns](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/d8f4f9af-0d6d-4d00-bf58-1b502ac64402)
 
-16. Setting DNS and add record rule at cloudflare
-    
-22. Add domain name to netlify
-23. Wait Until domain and DNS status active
-24. Website ready to be used
+    - Wait name server replacement progress until finished, this progress max duration 1 x 24hours but usually take within a hour
+
+16. Setting DNS record at cloudflare
+    - Input domain name from netlify.com to target and input "@" to name if want use root <br>
+      ![record](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0aa69dc5-9fad-4808-b9a7-e44f1e23636b)
+
+17. Add domain name to netlify
+    - Go to site configuration and add domain <br>
+    ![add domain](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/7b3a2ba3-29b3-4d6e-942d-d35fd05567d5)
+
+    - Wait progess until finish
+
+18. Go to Cloudflare home and Wait Until web status active <br>
+    ![active](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d0f6d31-0c7b-4fb1-8ce5-45b22f361364)
+
+19. Website is ready to be used
 
 
