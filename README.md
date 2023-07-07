@@ -45,7 +45,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
      ![branch](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/012f880d-1197-47f8-b54d-7d60e7d89ff9)
 
 9. Store changes to new branch and push to GitHub
-   - code: git add . ; git commit ; git push origin new_branch
+   - code: git add . ; git commit ; git push origin new_branch <br>
      ![pushbranch](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d1fb0da-e1bd-47c3-81d8-aa86464f414d)
 
 10. Go to GitHub website and do compare & pull request <br>
