@@ -106,7 +106,11 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     - Go to site configuration and add domain <br>
     ![add domain](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/7b3a2ba3-29b3-4d6e-942d-d35fd05567d5)
 
-    - Wait progess until finish
+    - Input domain name that we bought then click "add domain" <br>
+    ![custom domain](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/41c31714-d089-46cb-86f9-886406a64762)
+
+    - Wait progess until finish <br>
+      ![finish](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/2be7dff1-139b-4586-ab03-5e45f70c09c9)
 
 18. Go to Cloudflare home and Wait Until web status active <br>
     ![active](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d0f6d31-0c7b-4fb1-8ce5-45b22f361364)
