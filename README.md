@@ -39,22 +39,32 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
    - code: git add . ; git commit -m "update_description" ; git push
      ![push](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/79b37d17-448b-4819-8437-d0fddadb7538)
 
-8. Build website styling (with CSS) and logic program (with JavaScript)
-9. Make new branch to store new changes  and Change branch to new branch
+7. Build website styling (with CSS) and logic program (with JavaScript)
+8. Make new branch to store new changes  and Change branch to new branch
    - code: git branch new_branch ; git checkout new_branch <br>
      ![branch](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/012f880d-1197-47f8-b54d-7d60e7d89ff9)
 
-10. Store changes to new branch (code: git add . ; git commit ; git push origin new_branch)
-11. Go to GitHub website and do pull request
-12. Check items was changed if all ok merge new_branch with main branch
-13. Repeat step no. 7 - 11 if theres update in any section in your website, this for keep your main branch safe from error
-14. Deploy repository to hosting website (i use netlify.com)
-15. Buy domain at domain hoster (i use niagahoster.co.id)
-16. Add domain to DNS / CDN server (i use cloudflare/com)
-17. Change name server at niagahoster with name server that we got from cloudflare
-18. Setting DNS and add record rule at cloudflare
-19. Add domain name to netlify
-20. Wait Until domain and DNS status active
-21. Website ready to be used
+9. Store changes to new branch and push to GitHub
+   - code: git add . ; git commit ; git push origin new_branch
+     ![pushbranch](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d1fb0da-e1bd-47c3-81d8-aa86464f414d)
+
+10. Go to GitHub website and do compare & pull request <br>
+    ![pull](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/1d18e429-aa85-4fd2-b69c-2818f576b1f9)
+
+13. Check items was changed if all ok merge new_branch with main branch <br>
+    ![merge](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/703aa0d7-ca78-43fb-98bc-2482cfd717ad)
+    <br>
+    ![merger](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/83a0fd08-bed6-4fe2-a45d-f7f03f1aa6a3)
+
+
+15. Repeat step no. 7 - 10 if theres update in any section in your website, this for keep main branch safe from error
+16. Deploy repository to hosting website (i use netlify.com)
+17. Buy domain at domain hoster (i use niagahoster.co.id)
+18. Add domain to DNS / CDN server (i use cloudflare/com)
+19. Change name server at niagahoster with name server that we got from cloudflare
+20. Setting DNS and add record rule at cloudflare
+21. Add domain name to netlify
+22. Wait Until domain and DNS status active
+23. Website ready to be used
 
 
