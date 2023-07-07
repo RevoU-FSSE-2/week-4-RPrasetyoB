@@ -28,6 +28,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
 ## Work FLow
+<b>
 1. Make Website's Design
 2. Make Repository at GitHub
 3. Clone Repository from GitHub to Local Vesion control system
@@ -115,5 +116,6 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     ![active](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0d0f6d31-0c7b-4fb1-8ce5-45b22f361364)
 
 19. Website is ready to be used
+</b>
 
 
