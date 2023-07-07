@@ -306,7 +306,7 @@ footer {
 @media only screen and (max-width: 915px) {
     #toggle{
         top: 2vh;
-        left: 2vd;
+        left: 2vh;
     }
 
     #nav-mobile {
