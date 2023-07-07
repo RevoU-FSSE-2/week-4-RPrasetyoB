@@ -99,7 +99,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
     - Wait name server replacement progress until finished, this progress max duration 1 x 24hours but usually take within a hour
 
 16. Setting DNS record at cloudflare
-    - Input domain name from netlify.com to target and input "@" to name if want use root <br>
+    - Input domain name from netlify.com to target and input "@" to name if want use root after that click "Save" <br>
       ![record](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/0aa69dc5-9fad-4808-b9a7-e44f1e23636b)
 
 17. Add domain name to netlify
